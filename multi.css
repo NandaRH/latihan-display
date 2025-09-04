@@ -48,7 +48,7 @@ float: top;
 .kiri{
 width: 150px;
 height: 500PX;
-background-color: rgb(255, 255, 255);
+background-color: rgb(165, 146, 146);
 float: left;
 }
 
@@ -62,7 +62,7 @@ float: left;
 .kanan {
 width: 150px;
 height: 500PX;
-background-color: rgb(255, 255, 255);
+background-color: rgb(158, 134, 134);
 float: left;
 }
 
