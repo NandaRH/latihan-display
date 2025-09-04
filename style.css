@@ -3,6 +3,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+.kotak {
+  max-width: 800px;        
+  margin: 0px auto;       
+  background: #f30000;       
+  padding: 10px;           
+}
+
 
 .container {
   max-width: 800px;        
@@ -14,18 +21,26 @@ body {
 
 .header ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
   text-align: left; 
   
 }
-a{text-decoration: none
-    color(red;)
-}
+
+
 .header ul li {
   display: inline;
   margin-right: 20px;
+  text-decoration: none;
 }
 
-.judul{margin: 0px;
+.header ul li a {
+  text-decoration: none; 
+  color: rgb(0, 0, 0);          
+}
+
+
+.judul{text-align: left; 
+    padding: 0px;
+    margin: 10px;
 }
