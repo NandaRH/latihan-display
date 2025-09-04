@@ -1,33 +1,43 @@
+html {
+  scroll-behavior:smooth;
+}
 body {
-  background: #f4f4f4; 
+  background: #e0e0e0ee; 
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .kotak2 {
-  max-width: 800px;
+  max-width: 900px;
   max-height: 400px;          
   margin: 0px auto;       
   background: #914d4d;       
   padding: 10px;
-  overflow: auto;       
+  overflow: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
 
 .kotak {
-  max-width: 800px;        
+  max-width: 900px;        
   margin: 0px auto;       
   background: #f30000;       
-  padding: 10px;           
+  padding: 10px; 
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
 
 .container {
   max-width: 800px;        
   margin: 0px auto;       
-  background: #914d4d;       
-  padding: 10px;           
+  background: #00ff2a;       
+  padding: 10px; 
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
+
 
 
 .header ul {
@@ -51,7 +61,9 @@ body {
 }
 
 
-.judul{text-align: left; 
+.judul{text-align: center; 
     padding: 0px;
     margin: 10px;
 }
+
+h1{ background-color: #f30000;}
