@@ -3,6 +3,17 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
+.kotak2 {
+  max-width: 800px;
+  max-height: 400px;          
+  margin: 0px auto;       
+  background: #914d4d;       
+  padding: 10px;
+  overflow: auto;       
+}
+
+
 .kotak {
   max-width: 800px;        
   margin: 0px auto;       
