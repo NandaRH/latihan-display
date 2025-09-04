@@ -2,7 +2,8 @@ html {
   scroll-behavior:smooth;
 }
 body {
-  background: #e0e0e0ee; 
+  background:url(HS-ST-1.png);
+  background-size: cover;
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -14,8 +15,8 @@ body {
   background: #914d4d;       
   padding: 10px;
   overflow: auto;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -24,8 +25,8 @@ body {
   margin: 0px auto;       
   background: #f30000;       
   padding: 10px; 
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -34,8 +35,8 @@ body {
   margin: 0px auto;       
   background: #00ff2a;       
   padding: 10px; 
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -66,4 +67,12 @@ body {
     margin: 10px;
 }
 
-h1{ background-color: #f30000;}
+h1{ background-color: #f30000;
+}
+
+img {
+  display: block;     
+  margin: 0 auto;     
+  width: 500px;       
+  height: auto;  
+}
